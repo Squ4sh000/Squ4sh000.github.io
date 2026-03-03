@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squ4sh000 | 开发者主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="cursor-glow"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="brand">SQU4SH000</div>
+                <ul>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#skills">技能</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="greeting">你好，我是</h2>
+                    <h1 class="name">Squ4sh000</h1>
+                    <p class="description">一名热爱构建<span class="highlight">创造性</span>工具与<span class="highlight">高性能</span>系统的独立开发者。</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn primary">查看我的作品</a>
+                        <a href="https://github.com/Squ4sh000" class="btn secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>关于我</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>我热衷于探索计算机科学的底层边界，喜欢通过代码解决实际问题。对我而言，编程不仅仅是编写逻辑，更是一种创造艺术的过程。</p>
+                        <p>目前我正致力于打造 **N Language** —— 一门旨在平衡性能与表达力的现代化脚本语言。</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <span class="number">1+</span>
+                            <span class="label">年开发经验</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="number">10+</span>
+                            <span class="label">开源项目</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>精选项目</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="project-grid">
+                    <!-- Featured Project: N Language -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-tag">核心作品</div>
+                            <h3>N Language</h3>
+                            <p>一门使用 C 语言编写的高性能脚本语言。原生支持 ? 错误传递运算符、for-in 迭代器及高效的数组系统。配套有完整的 Windows 安装包及 VSCode 扩展生态。</p>
+                            <div class="project-tech">
+                                <span>C</span>
+                                <span>Compiler</span>
+                                <span>Language Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Squ4sh000/N" class="btn-link">源代码 →</a>
+                                <a href="https://Squ4sh000.github.io/N/" class="btn-link">官方网站 →</a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/n-logo.svg" alt="N Language Logo">
+                        </div>
+                    </div>
+
+                    <!-- Other Projects -->
+                    <div class="project-card">
+                        <h3>VSCode N-Lang Ext</h3>
+                        <p>为 N 语言量身定制的 VSCode 插件，提供语法高亮、一键运行及解释器自动识别功能。</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>VSCode API</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>N Libs</h3>
+                        <p>N 语言的标准库实现，包含数学、IO、字符串处理等核心模块，展示了语言的自举能力。</p>
+                        <div class="project-tech">
+                            <span>N Script</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>技术栈</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>底层与后端</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">C / C++</span>
+                            <span class="skill-item">Compiler Construction</span>
+                            <span class="skill-item">System Programming</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>工具与生态</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">VSCode Extension</span>
+                            <span class="skill-item">Git / GitHub</span>
+                            <span class="skill-item">Inno Setup</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>准备好开始新的合作了吗？</h2>
+                    <p>我始终对有趣的项目和技术挑战保持开放态度。</p>
+                    <a href="mailto:your-email@example.com" class="btn primary">发邮件给我</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Squ4sh000. 保留所有权利。</p>
+            <div class="social-links">
+                <a href="https://github.com/Squ4sh000">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple glow effect follow cursor
+        const glow = document.querySelector('.cursor-glow');
+        document.addEventListener('mousemove', (e) => {
+            glow.style.left = e.clientX + 'px';
+            glow.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>
